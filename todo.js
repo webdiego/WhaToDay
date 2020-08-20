@@ -9,7 +9,7 @@ const generateTemplate = todo =>{
 
  const html = `<li class="list-group-item flex ">
  <span>${todo}</span>
- <i class="far fa-trash-alt delete"></i>
+ <i class="fas fa-fire-alt delete"></i>
 </li>  `;
 
 

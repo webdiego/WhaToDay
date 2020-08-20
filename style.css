@@ -31,9 +31,9 @@ body{
 .line{
   position: absolute;
   height: 5px;
-  width: 60px;
+  width: 40px;
   background-color: rgb(255, 218, 5);
-  margin-left:97px;
+  margin-left:77px;
   transform: translateY(-32px);
   z-index: 1;
 }
@@ -57,6 +57,11 @@ input[type=text]:focus{
 
 .delete{
   cursor: pointer;
+  color:#F5B41D;
+}
+.delete:hover{
+  color:#F5791D ;
+  
 }
 
 .filter{
