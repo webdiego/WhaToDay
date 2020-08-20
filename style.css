@@ -33,7 +33,7 @@ body{
   height: 5px;
   width: 40px;
   background-color: rgb(255, 218, 5);
-  margin-left:77px;
+  margin-left:66px;
   transform: translateY(-32px);
   z-index: 1;
 }
@@ -57,6 +57,7 @@ input[type=text]:focus{
 
 .delete{
   cursor: pointer;
+  font-size: 20px;
   color:#F5B41D;
 }
 .delete:hover{
@@ -70,6 +71,7 @@ input[type=text]:focus{
 
 .flex{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   align-content: space-between;
 }
