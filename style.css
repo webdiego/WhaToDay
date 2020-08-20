@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(./img/back-2.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+}
+
+.container{
+  
+  max-width: 400px;
+}
+
+
+
+.title{
+  display: block;
+  position: relative;
+  z-index: 3;
+  margin-top:70px;
+}
+
+
+.line{
+  position: absolute;
+  height: 5px;
+  width: 60px;
+  background-color: rgb(255, 218, 5);
+  margin-left:97px;
+  transform: translateY(-32px);
+  z-index: 1;
+}
+
+
+input[type=text],
+input[type=text]:focus{
+  color: white;
+  border: none;
+  background: rgba(252, 248, 248, 0.534);
+  max-width: 400px;
+}
+
+.leva{
+  border: white solid 10px;
+  border-radius: 20px;
+}
+.todos li{
+  background-color: rgb(255, 255, 255);
+}
+
+.delete{
+  cursor: pointer;
+}
+
+.filter{
+  display: none !important;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
