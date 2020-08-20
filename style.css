@@ -60,6 +60,7 @@ input[type=text]:focus{
   font-size: 20px;
   color:#F5B41D;
 }
+
 .delete:hover{
   color:#F5791D ;
   
@@ -74,4 +75,11 @@ input[type=text]:focus{
   align-items: center;
   justify-content: space-between;
   align-content: space-between;
+}
+
+
+
+.slicecode{
+  height: 70px;
+  width:90px;
 }
